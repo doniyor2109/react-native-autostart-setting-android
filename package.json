@@ -1,0 +1,31 @@
+{
+  "name": "react-native-autostart-setting-xiomi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doniyor2109/react-native-autostart-setting-xiomi.git"
+  },
+  "keywords": [
+    "react-native",
+    "autostart",
+    "permission",
+    "xiomi",
+    "setttings"
+  ],
+  "author": "Aliyev Doniyor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doniyor2109/react-native-autostart-setting-xiomi/issues"
+  },
+  "homepage": "https://github.com/doniyor2109/react-native-autostart-setting-xiomi#readme",
+  "peerDependencies": {
+    "react-native": "^0.51.0"
+  }
+}
