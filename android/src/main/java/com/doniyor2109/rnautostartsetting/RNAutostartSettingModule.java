@@ -1,4 +1,4 @@
-package com.doniyor2109.rnautostartsetting
+package com.doniyor2109.rnautostartsetting;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -21,10 +21,12 @@ public class RNAutostartSettingModule extends ReactContextBaseJavaModule {
         super(reactContext);
     }
 
+    @ReactMethod
     public void openSetting() {
         Intent intent = new Intent();
 
         intent.setComponent(new ComponentName("com.miui.securitycenter", "com.miui.permcenter.autostart.AutoStartManagementActivity"));
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
         this.getReactApplicationContext().startActivity(intent);
     }
 }
